@@ -1,0 +1,11 @@
+---
+application:
+  name: "score-api"
+  project: "score"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-score-api"
+  routes:
+  - application_name: "score-api"
+    paths:
+    - "/*"
